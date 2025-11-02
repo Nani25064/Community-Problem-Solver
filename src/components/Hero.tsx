@@ -30,7 +30,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-slide-up">
             <Button size="lg" asChild className="bg-gradient-hero text-lg px-8 shadow-lg hover:shadow-xl transition-all">
-              <Link to="/report">Report an Issue</Link>
+              <Link to="/report-problem">Report an Issue</Link>
             </Button>
             <Button size="lg" variant="outline" asChild className="text-lg px-8 border-2">
               <Link to="/issues">Browse Issues</Link>
